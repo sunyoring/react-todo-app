@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import TodoTemplate from './components/TodoTemplate';
-
 import React from 'react';
+import TodoTemplate from './components/TodoTemplate';
+import TodoInsert from './components/TodoInsert';
 
 const App = () => {
   return (
     <TodoTemplate>
-      Todo App을 만들자!
+      <TodoInsert />
     </TodoTemplate>
   )
 };

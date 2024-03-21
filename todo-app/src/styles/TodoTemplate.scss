@@ -1,4 +1,4 @@
-.TodoTemplate.scss {
+.TodoTemplate {
   width: 512px;
   //width가 주어진 상태에서 좌우 중앙 정렬
   margin-left: auto;
@@ -12,6 +12,7 @@
     color: white;
     height: 4rem;
     font-size: 1.5rem;
+    font-weight: 600;
     display: flex;
     align-items: center;
     justify-content: center;
